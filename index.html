@@ -1,13 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Movie</title>
+    <link rel="icon" href="src/content/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="dist/style.css">
 </head>
+
 <body>
+    <header>
+        <video src="/src/content/video/theboys.webm" autoplay muted></video>
+        <nav>
+            <div class="logo_ul">
+                <a href="#">
+                    <img src="/src/content/logo.svg" alt="logo">
+                </a>
+
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Series</a>
+                    </li>
+                    <li>
+                        <a href="#">Movies</a>
+                    </li>
+                    <li>
+                        <a href="#">Kids</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search_user">
+                <input type="text" placeholder="Search..." id="search_input">
+                <img src="/src/content/user.svg" alt="user-img">
+                <div class="search">
+                    <a href="#" class="card">
+                        <img src="src/content/img/the boys.jpg" alt="">
+                        <div class="cont">
+                            <h3>The boys</h3>
+                            <p>Action, 2021, <span>IMDB</span><i class="bi bi-star-fill"></i>9.8</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="content">
+            <h1 id="tittle">Money Heist</h1>
+            <p> Is a Spanish heist crime drama television series. The series traces two long-prepared heists led by the
+                Professor, one on the Royal Mint of Spain, and one on the Bank of Spain, told from the perspective of
+                one of the robbers, Tokyo.</p>
+            <div class="details">
+                <h6>A Netflix Original Film</h6>
+                <h5 id="gen">Thriller</h5>
+                <h4>2021</h4>
+                <h3 id="rate"><span>IMDB</span><i class="bi bi-star-fill"></i>9.8</h3>
+            </div>
+
+            <div class="btns">
+                <a href="#" id="play">Watch<i class="bi bi-play-fill"></i></a>
+                <a href="#" id="download"><i class="bi bi-cloud-arrow-down-fill"></i></a>
+            </div>
+        </section>
+
+        <section class="block-cards">
+            <h4>Popular</h4>
+            <div class="cards"></div>
+        </section>
+
+    </header>
+
     <script type="module" src="dist/bundle.js"></script>
 </body>
+
 </html>
