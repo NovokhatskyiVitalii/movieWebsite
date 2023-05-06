@@ -1,0 +1,193 @@
+header {
+    position: relative;
+    width: 80%;
+    height: 90%;
+    // border: 1px solid $white-text;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 10px 25px -8px #000;
+
+    video {
+        position: absolute;
+        width: 120%;
+        height: 190%;
+        top: -47%;
+        z-index: -1;
+
+        // position: absolute;
+        // width: 100%;
+        // height: 100%;
+        // object-fit: cover;
+        // top: 0;
+        // left: 0;
+        // z-index: -1;
+    }
+
+    nav {
+        width: 100%;
+        height: 10%;
+        // border: 1px solid $white-text;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 40px;
+
+        .logo_ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {}
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                li {
+                    padding: 3px 15px;
+
+                    a {
+                        color: $white-text;
+                        font-size: 12px;
+                        font-weight: bold;
+                        transition: .3s linear;
+
+                        &:hover {
+                            color: #ffffffb3;
+                        }
+                    }
+                }
+            }
+        }
+
+        .search_user {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            input {
+                padding: 3px 10px;
+                border-radius: 20px;
+                background: #ffffe14d;
+                color: $white-text;
+                margin-right: 10px;
+
+                &::placeholder {
+                    color: $white-text;
+                }
+            }
+
+            .search {
+                position: absolute;
+                width: 320px;
+                height: 270px;
+                // border: 1px solid $white-text;
+                right: 0;
+                top: 40px;
+                z-index: 99;
+                overflow-y: auto;
+
+                &::-webkit-scrollbar {
+                    width: 5px;
+                    background: #ffffff4d;
+                    border-radius: 5px;
+                    visibility: hidden;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    width: 5px;
+                    background: #ffffff66;
+                    border-radius: 5px;
+                    visibility: hidden;
+                }
+
+                &:hover::-webkit-scrollbar {
+                    visibility: visible;
+                }
+
+                &:hover::-webkit-scrollbar-thumb {
+                    visibility: visible;
+                }
+
+                .card {
+                    position: relative;
+                    width: 100%;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 5px;
+                    padding: 3px 0;
+                    display: none;
+
+                    img {
+                        width: 28px;
+                        height: 90%;
+                        border-radius: 2px;
+                        margin-left: 8px;
+
+                    }
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        background: #ffffff1a;
+                        backdrop-filter: blur(5px);
+                        border-radius: 5px;
+                        z-index: -1;
+                    }
+
+                    .cont {
+                        margin-left: 10px;
+                        color: $white-text;
+
+                        h3 {
+                            font-size: 15px;
+                            line-height: 25px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            width: 250px;
+                        }
+
+                        p {
+                            font-size: 10px;
+                            color: #ffffffcc;
+                        }
+
+                        span {
+                            background: yellow;
+                            color: #000;
+                            padding: 0 3px;
+                            margin: 0 5px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url('/src/content/img/money heist1.jpg') no-repeat center center/cover;
+        opacity: .6;
+        z-index: -1;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, transparent, #000);
+        z-index: -1;
+    }
+}
