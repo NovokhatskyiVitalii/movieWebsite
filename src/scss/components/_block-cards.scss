@@ -6,6 +6,39 @@
     bottom: 20px;
     color: $white-text;
 
+    .bi-chevron-left,
+    .bi-chevron-right {
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        width: 25px;
+        height: 25px;
+        background: #ffffff4d;
+        color: $white-text;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 12px;
+        cursor: pointer;
+        transition: .3s linear;
+        z-index: 10000;
+        opacity: 0;
+    }
+
+    .bi-chevron-right {
+        left: unset;
+        right: 3%;
+    }
+
+    &:hover .bi-chevron-right {
+        opacity: 1;
+    }
+
+    &:hover .bi-chevron-left {
+        opacity: 1;
+    }
+
     .cards {
         position: relative;
         width: 100%;
@@ -14,6 +47,7 @@
         display: flex;
         align-items: center;
         overflow-x: auto;
+        scroll-behavior: smooth;
 
         &::-webkit-scrollbar {
             display: none;
@@ -29,7 +63,7 @@
             transition: .3s linear;
 
             &.card:hover {
-                width: 300px;
+                min-width: 300px;
                 overflow: hidden;
             }
 
@@ -53,7 +87,7 @@
                 top: 0;
                 z-index: 1000;
                 opacity: 0;
-                transition: 1s linear;
+                transition: .3s linear;
 
                 img {
                     position: relative;
