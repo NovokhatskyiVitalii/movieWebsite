@@ -3,7 +3,8 @@
 const leftBtn = document.querySelector(".bi-chevron-left"),
   rightBtn = document.querySelector(".bi-chevron-right"),
   cards = document.querySelector(".cards"),
-  search = document.querySelector(".search");
+  search = document.querySelector(".search"),
+  searchInput = document.querySelector("#search_input");
 
 leftBtn.addEventListener("click", () => {
   cards.scrollLeft -= 140;
@@ -62,5 +63,30 @@ fetch(jsonURL)
             </div>
       `;
       search.appendChild(card);
+    });
+
+    //search filter
+
+    searchInput.addEventListener("keyup", () => {
+      let filter = searchInput.value.toUpperCase();
+      let a = search.getElementsByTagName("a");
+
+      for (let index = 0; index < a.length; index++) {
+        let b = a[index].getElementsByClassName("cont")[0];
+        // console.log(a.textContent);
+        let textValue = b.textContent || b.innerText;
+        if (textValue.toUpperCase().indexOf(filter) > -1) {
+          a[index].style.display = "flex";
+          search.style.visibility = "visible";
+          search.style.opacity = 1;
+        } else {
+          a[index].style.display = "none";
+        }
+
+        if (searchInput.value == 0) {
+          search.style.visibility = "hidden";
+          search.style.opacity = 0;
+        }
+      }
     });
   });
