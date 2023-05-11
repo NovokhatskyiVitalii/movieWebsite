@@ -1,6 +1,9 @@
+//slider cards
+
 const leftBtn = document.querySelector(".bi-chevron-left"),
   rightBtn = document.querySelector(".bi-chevron-right"),
-  cards = document.querySelector(".cards");
+  cards = document.querySelector(".cards"),
+  search = document.querySelector(".search");
 
 leftBtn.addEventListener("click", () => {
   cards.scrollLeft -= 140;
@@ -9,6 +12,8 @@ leftBtn.addEventListener("click", () => {
 rightBtn.addEventListener("click", () => {
   cards.scrollLeft += 140;
 });
+
+//receiving and displaying cards
 
 const jsonURL = "/data/movie.json";
 
@@ -41,5 +46,21 @@ fetch(jsonURL)
     document.querySelector("#date").innerText = data[0].date;
     document.querySelector(
       "#rate"
-    ).innerHTML = ` <span>IMDB</span><i class="bi bi-star-fill"></i> ${date[0].imdb}`;
+    ).innerHTML = ` <span>IMDB</span><i class="bi bi-star-fill"></i> ${data[0].imdb}`;
+
+    // search data Load
+    data.forEach((element) => {
+      let { name, imdb, date, sposter, genre, url } = element;
+      let card = document.createElement("a");
+      card.classList.add("card");
+      card.href = url;
+      card.innerHTML = `
+            <img src="${sposter}" alt="">
+            <div class="cont">
+                <h3>${name}</h3>
+                <p>${genre}, ${date}, <span>IMDB</span><i class="bi bi-star-fill"></i>${imdb}</p>
+            </div>
+      `;
+      search.appendChild(card);
+    });
   });
