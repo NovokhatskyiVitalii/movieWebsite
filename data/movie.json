@@ -84,32 +84,32 @@
     "high": "/src/content/video/moon knight 1080ph.mp4"
   },
   {
-    "name": "Kota Factory",
-    "imdb": 9.6,
-    "date": "2020",
-    "sposter": "/src/content/img/kota factory.jpg",
-    "bposter": "/src/content/img/kota factory1.webp",
-    "genre": "Action",
-    "type": "series",
-    "url": "kota factory.html",
+    "name": "Luther: The Fallen Sun",
+    "imdb": 8.1,
+    "date": "2023",
+    "sposter": "/src/content/img/luther.jpg",
+    "bposter": "/src/content/img/luther1.jpeg",
+    "genre": "Thriller",
+    "type": "movie",
+    "url": "Luther: The Fallen Sun.html",
     "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/kota factory 480ph.mp4",
-    "medium": "/src/content/video/kota factory 720ph.mp4",
-    "high": "/src/content/video/kota factory 1080ph.mp4"
+    "low": "/src/content/video/Luther: The Fallen Sun 480ph.mp4",
+    "medium": "/src/content/video/Luther: The Fallen Sun 720ph.mp4",
+    "high": "/src/content/video/Luther: The Fallen Sun 1080ph.mp4"
   },
   {
-    "name": "Collage Romance",
-    "imdb": 7.9,
-    "date": "2021",
-    "sposter": "/src/content/img/collage romance.jpg",
-    "bposter": "/src/content/img/collage romance1.jpg",
-    "genre": "Action",
-    "type": "series",
-    "url": "collage romance.html",
+    "name": "Babylon",
+    "imdb": 7.2,
+    "date": "2022",
+    "sposter": "/src/content/img/Babylon.jpg",
+    "bposter": "/src/content/img/babylon1.jpg",
+    "genre": "Drama",
+    "type": "movies",
+    "url": "Babylon.html",
     "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/collage romance 480ph.mp4",
-    "medium": "/src/content/video/collage romance 720ph.mp4",
-    "high": "/src/content/video/collage romance 1080ph.mp4"
+    "low": "/src/content/video/Babylon 480ph.mp4",
+    "medium": "/src/content/video/Babylon 720ph.mp4",
+    "high": "/src/content/video/Babylon 1080ph.mp4"
   },
   {
     "name": "Thor Love Of Thunder",
@@ -140,18 +140,18 @@
     "high": "/src/content/video/uncharted 1080ph.mp4"
   },
   {
-    "name": "Eesho",
-    "imdb": 8.2,
-    "date": "2022",
-    "sposter": "/src/content/img/eesho.jpeg",
-    "bposter": "/src/content/img/eesho1.jpg",
-    "genre": "Action",
+    "name": "Dune",
+    "imdb": 7.2,
+    "date": "2021",
+    "sposter": "/src/content/img/dune.webp",
+    "bposter": "/src/content/img/dune1.jpeg",
+    "genre": " Science-Fiction",
     "type": "movie",
-    "url": "eesho.html",
+    "url": "Dune.html",
     "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/eesho 480ph.mp4",
-    "medium": "/src/content/video/eesho 720ph.mp4",
-    "high": "/src/content/video/eesho 1080ph.mp4"
+    "low": "/src/content/video/ 480ph.mp4",
+    "medium": "/src/content/video/ 720ph.mp4",
+    "high": "/src/content/video/ 1080ph.mp4"
   },
   {
     "name": "Top Gun",
@@ -208,5 +208,19 @@
     "low": "/src/content/video/spiderman 480ph.mp4",
     "medium": "/src/content/video/spiderman 720ph.mp4",
     "high": "/src/content/video/spiderman 1080ph.mp4"
+  },
+  {
+    "name": "Shantaram",
+    "imdb": 8.8,
+    "date": "2022",
+    "sposter": "/src/content/img/Shantaram.jpg",
+    "bposter": "/src/content/img/Shantaram1.jpg",
+    "genre": "Drama",
+    "type": "series",
+    "url": "Shantaram.html",
+    "trailer": "john wick trailer.mp4",
+    "low": "/src/content/video/ 480ph.mp4",
+    "medium": "/src/content/video/ 720ph.mp4",
+    "high": "/src/content/video/ 1080ph.mp4"
   }
 ]
