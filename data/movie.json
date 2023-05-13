@@ -7,11 +7,12 @@
     "bposter": "/src/content/img/the boys1.jpg",
     "genre": "Action",
     "type": "series",
+    "description": "The Boys is an American superhero television series developed by Eric Kripke for Amazon Prime Video. Based on the comic book of the same name by Garth Ennis and Darick Robertson, it follows the eponymous team of vigilantes as they combat superpowered individuals who abuse their abilities.",
     "url": "the boys.html",
-    "trailer": "john wick.webm",
+    "trailer": "/src/content/video/theboys.webm",
     "low": "/src/content/video/theboys.webm",
-    "medium": "/src/content/video/the boys 720ph.mp4",
-    "high": "/src/content/video/the boys 1080ph.mp4"
+    "medium": "/src/content/video/theboys.webm",
+    "high": "/src/content/video/theboys.webm"
   },
   {
     "name": "Money Heist",
@@ -19,41 +20,44 @@
     "date": "2020",
     "sposter": "/src/content/img/money heist.jpg",
     "bposter": "/src/content/img/money heist1.jpg",
-    "genre": "Action",
+    "genre": "Thriller",
     "type": "series",
+    "description": "Is a Spanish crime, heist drama television series created by Alex Pina. The series follows two long-planned heists led by a professor (Alvaro Morte), one at the Royal Mint of Spain and one at the Bank of Spain, told from the point of view of one of the robbers, Tokyo (Ursula Corbero).",
     "url": "money heist.html",
-    "trailer": "money heist trailer.mp4",
-    "low": "/src/content/video/money heist 480ph.mp4",
-    "medium": "/src/content/video/money heist 720ph.mp4",
-    "high": "/src/content/video/money heist 1080ph.mp4"
+    "trailer": "/src/content/video/Money Heist Korea - Joint Economic Area Official Trailer Netflix.mp4",
+    "low": "/src/content/video/Money Heist Korea - Joint Economic Area Official Trailer Netflix.mp4",
+    "medium": "/src/content/video/Money Heist Korea - Joint Economic Area Official Trailer Netflix.mp4",
+    "high": "/src/content/video/Money Heist Korea - Joint Economic Area Official Trailer Netflix.mp4"
   },
   {
-    "name": "John Wick",
+    "name": "John Wick 4",
     "imdb": 9.8,
     "date": "2022",
     "sposter": "/src/content/img/Jhon Wick.jpg",
     "bposter": "/src/content/img/jhon wick1.webp",
     "genre": "Action",
     "type": "movie",
+    "description": "In New York, John Wick prepares to take revenge on the Rule of Clans by hiding underground with the Pigeon King. He travels to Morocco and kills the Elder, the only person above the Board.",
     "url": "jhon wick.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/Jhon Wick 480ph.mp4",
-    "medium": "/src/content/video/Jhon Wick 720ph.mp4",
-    "high": "/src/content/video/Jhon Wick 1080ph.mp4"
+    "trailer": "/src/content/video/john wick.webm",
+    "low": "/src/content/video/john wick.webm",
+    "medium": "/src/content/video/john wick.webm",
+    "high": "/src/content/video/john wick.webm"
   },
   {
     "name": "Ant Man",
     "imdb": 8.9,
-    "date": "2017",
+    "date": "2015",
     "sposter": "/src/content/img/ant man.jpg",
     "bposter": "/src/content/img/ant man1.jpg",
     "genre": "Action",
     "type": "movie",
+    "description": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, pull off a plan that will save the world.",
     "url": "ant man.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/ant man 480ph.mp4",
-    "medium": "/src/content/video/ant man 720ph.mp4",
-    "high": "/src/content/video/ant man 1080ph.mp4"
+    "trailer": "/src/content/video/Marvel's Ant-Man - Trailer 1.mp4",
+    "low": "/src/content/video/Marvel's Ant-Man - Trailer 1.mp4",
+    "medium": "/src/content/video/Marvel's Ant-Man - Trailer 1.mp4",
+    "high": "/src/content/video/Marvel's Ant-Man - Trailer 1.mp4"
   },
   {
     "name": "Avengers",
@@ -63,11 +67,12 @@
     "bposter": "/src/content/img/avengers1.jpg",
     "genre": "Action",
     "type": "movie",
+    "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
     "url": "avengers.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/avengers 480ph.mp4",
-    "medium": "/src/content/video/avengers 720ph.mp4",
-    "high": "/src/content/video/avengers 1080ph.mp4"
+    "trailer": "/src/content/video/Marvel's The Avengers Blu-ray Trailer.mp4",
+    "low": "/src/content/video/Marvel's The Avengers Blu-ray Trailer.mp4",
+    "medium": "/src/content/video/Marvel's The Avengers Blu-ray Trailer.mp4",
+    "high": "/src/content/video/Marvel's The Avengers Blu-ray Trailer.mp4"
   },
   {
     "name": "Moon Knight",
@@ -77,11 +82,12 @@
     "bposter": "/src/content/img/moon knight1.webp",
     "genre": "Action",
     "type": "series",
+    "description": "Steven Grant discovers he's been granted the powers of an Egyptian moon god. But he soon finds out that these newfound powers can be both a blessing and a curse to his troubled life.",
     "url": "moon knight.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/moon knight 480ph.mp4",
-    "medium": "/src/content/video/moon knight 720ph.mp4",
-    "high": "/src/content/video/moon knight 1080ph.mp4"
+    "trailer": "/src/content/video/Marvel Studios’ Moon Knight Official Trailer Disney+.mp4",
+    "low": "/src/content/video/Marvel Studios’ Moon Knight Official Trailer Disney+.mp4",
+    "medium": "/src/content/video/Marvel Studios’ Moon Knight Official Trailer Disney+.mp4",
+    "high": "/src/content/video/Marvel Studios’ Moon Knight Official Trailer Disney+.mp4"
   },
   {
     "name": "Luther: The Fallen Sun",
@@ -91,11 +97,12 @@
     "bposter": "/src/content/img/luther1.jpeg",
     "genre": "Thriller",
     "type": "movie",
-    "url": "Luther: The Fallen Sun.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/Luther: The Fallen Sun 480ph.mp4",
-    "medium": "/src/content/video/Luther: The Fallen Sun 720ph.mp4",
-    "high": "/src/content/video/Luther: The Fallen Sun 1080ph.mp4"
+    "description": "Brilliant but disgraced detective John Luther breaks out of prison to hunt down a sadistic serial killer who is terrorising London.",
+    "url": "luther.html",
+    "trailer": "/src/content/video/Luther The Fallen Sun Official Trailer Netflix.mp4",
+    "low": "/src/content/video/Luther The Fallen Sun Official Trailer Netflix.mp4",
+    "medium": "/src/content/video/Luther The Fallen Sun Official Trailer Netflix.mp4",
+    "high": "/src/content/video/Luther The Fallen Sun Official Trailer Netflix.mp4"
   },
   {
     "name": "Babylon",
@@ -105,11 +112,12 @@
     "bposter": "/src/content/img/babylon1.jpg",
     "genre": "Drama",
     "type": "movies",
-    "url": "Babylon.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/Babylon 480ph.mp4",
-    "medium": "/src/content/video/Babylon 720ph.mp4",
-    "high": "/src/content/video/Babylon 1080ph.mp4"
+    "description": "A tale of outsized ambition and outrageous excess, it traces the rise and fall of multiple characters during an era of unbridled decadence and depravity in early Hollywood.",
+    "url": "babylon.html",
+    "trailer": "/src/content/video/Babylon (2022).mp4",
+    "low": "/src/content/video/Babylon (2022).mp4",
+    "medium": "/src/content/video/Babylon (2022).mp4",
+    "high": "/src/content/video/Babylon (2022).mp4"
   },
   {
     "name": "Thor Love Of Thunder",
@@ -119,11 +127,12 @@
     "bposter": "/src/content/img/thor love of thunder1.avif",
     "genre": "Action",
     "type": "movie",
+    "description": "Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.",
     "url": "thor love of thunder.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/thor love of thunder 480ph.mp4",
-    "medium": "/src/content/video/thor love of thunder 720ph.mp4",
-    "high": "/src/content/video/thor love of thunder 1080ph.mp4"
+    "trailer": "/src/content/video/Marvel Studios' Thor Love and Thunder Official Trailer.mp4",
+    "low": "/src/content/video/Marvel Studios' Thor Love and Thunder Official Trailer.mp4",
+    "medium": "/src/content/video/Marvel Studios' Thor Love and Thunder Official Trailer.mp4",
+    "high": "/src/content/video/Marvel Studios' Thor Love and Thunder Official Trailer.mp4"
   },
   {
     "name": "Uncharted",
@@ -133,11 +142,12 @@
     "bposter": "/src/content/img/uncharted1.jpg",
     "genre": "Action",
     "type": "movie",
+    "description": "Street-smart Nathan Drake is recruited by seasoned treasure hunter Victor 'Sully' Sullivan to recover a fortune amassed by Ferdinand Magellan, and lost 500 years ago by the House of Moncada.",
     "url": "uncharted.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/uncharted 480ph.mp4",
-    "medium": "/src/content/video/uncharted 720ph.mp4",
-    "high": "/src/content/video/uncharted 1080ph.mp4"
+    "trailer": "/src/content/video/UNCHARTED - Official Trailer (HD).mp4",
+    "low": "/src/content/video/UNCHARTED - Official Trailer (HD).mp4",
+    "medium": "/src/content/video/UNCHARTED - Official Trailer (HD).mp4",
+    "high": "/src/content/video/UNCHARTED - Official Trailer (HD).mp4"
   },
   {
     "name": "Dune",
@@ -145,41 +155,14 @@
     "date": "2021",
     "sposter": "/src/content/img/dune.webp",
     "bposter": "/src/content/img/dune1.jpeg",
-    "genre": " Science-Fiction",
+    "genre": "Science-Fiction",
     "type": "movie",
-    "url": "Dune.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/ 480ph.mp4",
-    "medium": "/src/content/video/ 720ph.mp4",
-    "high": "/src/content/video/ 1080ph.mp4"
-  },
-  {
-    "name": "Top Gun",
-    "imdb": 8.0,
-    "date": "2022",
-    "sposter": "/src/content/img/topgun.jpg",
-    "bposter": "/src/content/img/topgun1.jpg",
-    "genre": "Action",
-    "type": "movie",
-    "url": "topgun.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/topgun 480ph.mp4",
-    "medium": "/src/content/video/topgun 720ph.mp4",
-    "high": "/src/content/video/topgun 1080ph.mp4"
-  },
-  {
-    "name": "Jurassic World",
-    "imdb": 8.0,
-    "date": "2022",
-    "sposter": "/src/content/img/jurassic world.jpg",
-    "bposter": "/src/content/img/jurassic world1.jpg",
-    "genre": "Action",
-    "type": "movie",
-    "url": "jurassic world.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/jurassic world 480ph.mp4",
-    "medium": "/src/content/video/jurassic world 720ph.mp4",
-    "high": "/src/content/video/jurassic world 1080ph.mp4"
+    "description": "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
+    "url": "dune.html",
+    "trailer": "/src/content/video/Dune Part Two Official Trailer.mp4",
+    "low": "/src/content/video/Dune Part Two Official Trailer.mp4",
+    "medium": "/src/content/video/Dune Part Two Official Trailer.mp4",
+    "high": "/src/content/video/Dune Part Two Official Trailer.mp4"
   },
   {
     "name": "Eternals",
@@ -189,25 +172,27 @@
     "bposter": "/src/content/img/eternals1.webp",
     "genre": "Action",
     "type": "movie",
+    "description": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations.",
     "url": "eternals.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/eternals 480ph.mp4",
-    "medium": "/src/content/video/eternals 720ph.mp4",
-    "high": "/src/content/video/eternals 1080ph.mp4"
+    "trailer": "/src/content/video/Marvel Studios’ Eternals Final Trailer.mp4",
+    "low": "/src/content/video/Marvel Studios’ Eternals Final Trailer.mp4",
+    "medium": "/src/content/video/Marvel Studios’ Eternals Final Trailer.mp4",
+    "high": "/src/content/video/Marvel Studios’ Eternals Final Trailer.mp4"
   },
   {
     "name": "Spider Man",
     "imdb": 9.9,
-    "date": "2020",
+    "date": "2021",
     "sposter": "/src/content/img/spiderman.jpg",
     "bposter": "/src/content/img/spiderman1.jpg",
     "genre": "Action",
     "type": "movie",
+    "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
     "url": "spiderman.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/spiderman 480ph.mp4",
-    "medium": "/src/content/video/spiderman 720ph.mp4",
-    "high": "/src/content/video/spiderman 1080ph.mp4"
+    "trailer": "/src/content/video/SPIDER-MAN NO WAY HOME - Official Trailer (HD).mp4",
+    "low": "/src/content/video/SPIDER-MAN NO WAY HOME - Official Trailer (HD).mp4",
+    "medium": "/src/content/video/SPIDER-MAN NO WAY HOME - Official Trailer (HD).mp4",
+    "high": "/src/content/video/SPIDER-MAN NO WAY HOME - Official Trailer (HD).mp4"
   },
   {
     "name": "Shantaram",
@@ -217,10 +202,11 @@
     "bposter": "/src/content/img/Shantaram1.jpg",
     "genre": "Drama",
     "type": "series",
-    "url": "Shantaram.html",
-    "trailer": "john wick trailer.mp4",
-    "low": "/src/content/video/ 480ph.mp4",
-    "medium": "/src/content/video/ 720ph.mp4",
-    "high": "/src/content/video/ 1080ph.mp4"
+    "description": "A heroin addict incarcerated for a robbery escapes prison and reinvents himself as a doctor in the slums of Bombay; his ties to the crime underworld there lead him to Afghanistan, where he partners with a mob boss locked in a battle with Russian criminals.",
+    "url": "shantaram.html",
+    "trailer": "/src/content/video/Shantaram — Official Trailer Apple TV+.mp4",
+    "low": "/src/content/video/Shantaram — Official Trailer Apple TV+.mp4",
+    "medium": "/src/content/video/Shantaram — Official Trailer Apple TV+.mp4",
+    "high": "/src/content/video/Shantaram — Official Trailer Apple TV+.mp4"
   }
 ]

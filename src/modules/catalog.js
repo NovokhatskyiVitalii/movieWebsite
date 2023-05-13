@@ -90,6 +90,8 @@ fetch(jsonURL)
       }
     });
 
+    //main video
+
     let video = document.getElementsByTagName("video")[0];
     let play = document.querySelector("#play");
 
@@ -101,5 +103,69 @@ fetch(jsonURL)
         video.pause();
         play.innerHTML = `Watch <i class="bi bi-play-fill"></i>`;
       }
+    });
+
+    //filter genre
+
+    let series = document.querySelector("#series");
+
+    series.addEventListener("click", () => {
+      cards.innerHTML = ``;
+
+      let seriesArray = data.filter((ele) => {
+        return ele.type === "series";
+      });
+
+      seriesArray.forEach((ele, i) => {
+        let { name, imdb, date, sposter, bposter, genre, url } = ele;
+        let card = document.createElement("a");
+        card.classList.add("card");
+        card.href = url;
+        card.innerHTML = `
+          <img src="${sposter}" alt="${name}" class="poster">
+          <div class="rest_card">
+              <img src="${bposter}" alt="rest-img">
+              <div class="cont">
+                  <h4>${name}</h4>
+                  <div class="sub">
+                      <p>${genre}, ${date}</p>
+                      <h3><span>IMDB</span><i class="bi bi-star-fill"></i>${imdb}</h3>
+                  </div>
+              </div>
+          </div>
+        `;
+        cards.appendChild(card);
+      });
+    });
+
+    let movies = document.querySelector("#movies");
+
+    movies.addEventListener("click", () => {
+      cards.innerHTML = ``;
+
+      let moviesArray = data.filter((ele) => {
+        return ele.type === "movie";
+      });
+
+      moviesArray.forEach((ele, i) => {
+        let { name, imdb, date, sposter, bposter, genre, url } = ele;
+        let card = document.createElement("a");
+        card.classList.add("card");
+        card.href = url;
+        card.innerHTML = `
+          <img src="${sposter}" alt="${name}" class="poster">
+          <div class="rest_card">
+              <img src="${bposter}" alt="rest-img">
+              <div class="cont">
+                  <h4>${name}</h4>
+                  <div class="sub">
+                      <p>${genre}, ${date}</p>
+                      <h3><span>IMDB</span><i class="bi bi-star-fill"></i>${imdb}</h3>
+                  </div>
+              </div>
+          </div>
+        `;
+        cards.appendChild(card);
+      });
     });
   });

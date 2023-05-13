@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Wick 4| Movie</title>
+    <link rel="icon" href="src/content/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="dist/style.css">
+</head>
+
+<body>
+    <header>
+        <video src="" autoplay muted></video>
+        <nav>
+            <div class="logo_ul">
+                <a href="/">
+                    <img src="/src/content/logo.svg" alt="logo">
+                </a>
+
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" id="series">Series</a>
+                    </li>
+                    <li>
+                        <a href="#" id="movies">Movies</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search_user">
+                <input type="text" placeholder="Search..." id="search_input">
+                <img src="/src/content/user.svg" alt="user-img">
+                <div class="search">
+                </div>
+            </div>
+        </nav>
+
+        <section class="content">
+            <h1 id="tittle"></h1>
+            <p class="description"></p>
+            <div class="details">
+                <h6>DefyNite Films</h6>
+                <h5 id="gen"></h5>
+                <h4 id="date"></h4>
+                <h3 id="rate"><span>IMDB</span><i class="bi bi-star-fill"></i></h3>
+            </div>
+
+            <div class="btns">
+                <a href="#" id="play">Watch<i class="bi bi-play-fill"></i></a>
+                <a href="#" download="The Boys 480ph" id="low-q">480ph</a>
+                <a href="#" download="The Boys 720ph" id="medium-q">720ph</a>
+                <a href="#" download="The Boys 1080ph" id="high-q">1080ph</a>
+            </div>
+        </section>
+
+        <section class="block-cards">
+            <h4>Popular</h4>
+            <i class="bi bi-chevron-left"></i>
+            <i class="bi bi-chevron-right"></i>
+            <div class="cards">
+            </div>
+        </section>
+
+    </header>
+
+    <script type="module" src="dist/bundle.js"></script>
+    <script>
+        const jsonURL = "/data/movie.json";
+
+        fetch(jsonURL).then((Response) => Response.json())
+            .then(data => {
+                let moviesArray = data.filter((ele) => {
+                    return ele.name === "John Wick 4";
+                });
+
+                document.querySelector("video").play();
+                document.querySelector("video").setAttribute('src', moviesArray[0].trailer);
+                document.querySelector(".description").innerText = moviesArray[0].description;
+                document.querySelector("#low-q").href = moviesArray[0].low;
+                document.querySelector("#medium-q").href = moviesArray[0].medium;
+                document.querySelector("#high-q").href = moviesArray[0].high;
+                document.querySelector("#tittle").innerText = moviesArray[0].name;
+                document.querySelector("#gen").innerText = moviesArray[0].genre;
+                document.querySelector("#date").innerText = moviesArray[0].date;
+                document.querySelector(
+                    "#rate"
+                ).innerHTML = `<span>IMDB</span><i class="bi bi-star-fill"></i> ${moviesArray[0].imdb}`;
+
+            })
+    </script>
+
+</html>
