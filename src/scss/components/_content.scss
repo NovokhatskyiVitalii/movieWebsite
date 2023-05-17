@@ -113,4 +113,28 @@
         }
 
     }
+
+    @media screen and (max-width: 671px) {
+        padding-left: 20px;
+
+        section {
+            padding: 0 10px;
+        }
+    }
+
+    @media screen and (max-width: 390px) {
+
+        p {
+            width: 300px;
+        }
+
+        .btns {
+            flex-wrap: wrap;
+
+            a {
+                margin-block-end: 10px;
+            }
+        }
+
+    }
 }

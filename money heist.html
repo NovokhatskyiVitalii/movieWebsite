@@ -75,6 +75,7 @@
             .then(data => {
                 let moviesArray = data.filter((ele) => {
                     return ele.name === "Money Heist";
+
                 });
 
                 document.querySelector("video").play();
@@ -89,7 +90,7 @@
                 document.querySelector(
                     "#rate"
                 ).innerHTML = `<span>IMDB</span><i class="bi bi-star-fill"></i> ${moviesArray[0].imdb}`;
-
+                console.log(moviesArray);
             })
     </script>
 
